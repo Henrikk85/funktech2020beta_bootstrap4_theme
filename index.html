@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit-cover">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Funktech - An Emerging Web Development Agency</title>
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<meta property="og:url"                content="http://funktech2020beta.henrikkrieger.ee"/>
+   <meta property="og:type"               content="website"/>
+   <meta property="og:title"              content="Funktech - An Emerging Web Development Agency"/>
+   <meta property="og:description"        content="We are an emerging web development agency from Tallinn, Estonia."/>
+   <meta property="og:image"              content="http://funktech2020beta.henrikkrieger.ee/img/meta.jpg"/>
+	<!-- Bootstrap CSS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Style.css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Plugins.css -->
+	<link rel="stylesheet" href="css/plugins.css">
+	<!-- Google Fonts https://fonts.google.com/ -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+	<!--Cascadia Code Font Stylesheet-->
+	<link href="css/stylesheet.css" rel="stylesheet">
+	<!-- Animate.css https://cdnjs.com/libraries/animate.css/
+		https://daneden.github.io/animate.css/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css">
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+	
+	<link rel="stylesheet" href="/css/dark-mode.css">
+
+	<!-- jQuery https://code.jquery.com/ -->
+
+	<script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
+
+	<!-- Bootstrap JS https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!-- Start Home Section -->
+	<div id="home">
+		<!--Navigation-->
+		<nav class="navbar navbar-expand-lg fixed-top">
+
+		<div class="container-fluid">
+
+			<a href="#home" class="navbar-brand"><img src="img/Funktech2020.png" alt=""></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			 	<span class="custom-toggler-icon"><i class="fas fa-bars"></i></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+					<!--<li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>-->
+					<li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+					<li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+					<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+					<li class="nav-item"><a href="#clients" class="nav-link">Clients</a></li>
+					<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+
+				</ul>
+			</div>
+
+		</div>
+
+		</nav>
+
+		<!--End Of Navigation-->
+
+		<!--- Video Background -->
+
+		<div class="video-background">
+			<div class="video-wrap">
+				<div id="video">
+					<video id="bgvid" playsinline autoplay muted loop>
+						<source src="/media/landingmp4.mp4" type="video/mp4">
+						<source src="/media/landingwebm.webm" type="video/webm">
+					</video>		 
+				</div> <!--- End Video ID -->
+			</div> <!--- End Video Wrap -->
+		</div> <!--- End Video Background -->
+
+		<!-- Start Bouncing Down Arrow -->
+		<a href="#features" class="down-arrow text-center">
+			<div class="arrow d-none d-md-block">
+				<i class="fas fa-angle-down"></i>
+			</div>
+		</a>
+		<!-- End Bouncing Down Arrow -->
+
+	</div><!-- End Home Section -->
+
+	
+	<!-- Start Features Section -->
+
+	<div id="features" class="offset">
+
+		<!--Start Theme Heading-->
+		<div class="row text-center py-4 os-animation justify-content-center" data-animation="fadeInUp">
+
+			<div class="col-11 col-md-10 col-lg-9">
+				<h1>Welcome!</h1>
+				<p class="lead" style="text-decoration: underline;">We are an emerging web development agency and you have landed on our site. Hopefully you will find the expertise and services that you're in need and searching for!</p>
+				<a href="#contact" class="btn btn-secondary btn-sm">Request A Quote</a>
+				<a href="#pricing" class="btn btn-funktech btn-sm">Jump To Pricing</a>
+			</div>
+		</div>
+
+		<!--End Theme Heading-->
+
+		<!--Start Of Jumbotron-->
+		<div class="jumbotron m-0 py-5">
+
+			<div class="col-12 os-animation" data-animation="fadeInUp">
+				<h3 class="heading">Features</h3>
+				<div class="heading-underline"></div>
+				<h5 class="text-center">These are some of the features we like to use and emphasize on regarding our digital products and services.</h5>
+			</div>
+
+		<div class="container">
+			<div class="row text-center px-lg-4 px-xl-5">
+
+				<div class="col-sm-6 col-md-4 os-animation"
+				data-animation="fadeInLeft">
+					<div class="feature px-2">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fas fa-mobile-alt fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3>Mobile Friendly</h3>
+						<p class="lead">
+							A mobile friendly website is essentially when your regular website shrinks down to be small enough to display on a mobile device. It looks like a tiny version of your website. There's a lot of zooming, pinching and scrolling going on, but the site displays and functions.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 os-animation"
+				data-animation="fadeInLeft">
+					<div class="feature px-2">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fab fa-searchengin fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3>SEO Friendly</h3>
+						<p class="lead">
+							Making a website SEO friendly means the search engines can crawl each page on the website efficiently, interpret the content effectively, and index it in their database. Once indexed, they can then serve the most relevant and valuable web pages to their users based on the topics they search for.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 os-animation"
+				data-animation="fadeInLeft">
+					<div class="feature px-2">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fas fa-icons fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3>Custom Animations</h3>
+						<p class="lead">
+							Since the website design has drastically improved through different tools, animations have been part of this. Nowadays, we are trying to create eye-catching websites to create better conversions and attract users to buy, click, and view things on our websites. Animations play a fundamental role in these conversions. 
+						</p>
+					</div>
+				</div>
+
+			</div> <!--End Of Row-->
+
+			<div class="row text-center px-lg-4 px-xl-5">
+
+				<div class="col-sm-6 col-md-4 os-animation"
+				data-animation="fadeInUp">
+					<div class="feature px-2">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fas fa-running fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3>Fast & Optimized</h3>
+						<p class="lead">
+							Faster website download speeds have been shown to increase visitor retention and loyalty and user satisfaction, especially for users with slow internet connections and those on mobile devices.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 os-animation"
+				data-animation="fadeInUp">
+					<div class="feature px-2">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fas fa-envelope-open-text fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3>Gamification</h3>
+						<p class="lead">
+							Gamification is a technique where designers insert gameplay elements in non-gaming settings so as to enhance user engagement with a product or service. By weaving suitably fun features such as leaderboards and badges into an existing system, designers tap users' intrinsic motivations so they enjoy using it.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 os-animation"
+				data-animation="fadeInUp">
+					<div class="feature px-2">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fas fa-chevron-circle-down fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3>Secure & Reliable</h3>
+						<p class="lead">
+							Most sites will get attacked with malicious intents during their lifespan and we do are very best to make our products as secure as possible. If it’s a WordPress based solution there are numerous ways to do this but the most common is to use proper plugins that are tailored to face these security issues.
+						</p>
+					</div>
+				</div>
+
+			</div> <!--End Of Row-->
+
+			<div class="row text-center px-lg-4 px-xl-5">
+
+				<div class="col-sm-6 col-md-4 os-animation"
+				data-animation="fadeInRight">
+					<div class="feature px-2">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fas fa-images fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3>Image Gallery Support</h3>
+						<p class="lead">
+						 Showing your services or work using a gallery page is quite handy if your line of work is construction, property letting, children play bus hire, photo booth hire and so on – a gallery page is not just a gallery, it is a portfolio of your work because it best shows your potential customers what you have done and what you can do.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 os-animation"
+				data-animation="fadeInRight">
+					<div class="feature px-2">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fas fa-plane-arrival fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3>Full-Screen Landing</h3>
+						<p class="lead">
+							In online marketing, a landing page, sometimes known as a "lead capture page", "static page", or a "destination page", is a single web page that appears in response to clicking on a search engine optimized search result, marketing promotion, marketing email, or an online advertisement.
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 os-animation"
+				data-animation="fadeInRight">
+					<div class="feature px-2">
+						<span class="fa-stack fa-2x">
+							<i class="fas fa-circle fa-stack-2x"></i>
+							<i class="fas fa-sliders-h fa-stack-1x fa-inverse"></i>
+						</span>
+						<h3>Content Sliders</h3>
+						<p class="lead">
+							Sliders can be used on all kind of websites however they’re most commonly used on business websites or professional portfolio websites. One clear advantage of using a slider is that website owners can place all their important content in a visually appealing and interactive slideshow at the top of the page before their main content. This allows users to quickly see the highlights and take action.
+						</p>
+					</div>
+				</div>
+
+			</div> <!--End Of Row-->
+		</div> <!--End Of Container-->
+
+		</div><!--End Of Jumbotron-->
+		
+		<!--Start Fixed BG Image Dark-->
+		<div class="fixed">
+
+			<div class="row dark text-light text-center">
+
+				<div class="col-12 os-animation" data-animation="fadeInUp">
+					<h3 class="heading">Built With Meticulous Detail & Latest Technologies</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="col-md-3 os-animation" data-animation="fadeInLeft">
+					<h3>HTML5</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="fab fa-html5"></i>
+						</span>
+					</div>
+
+					<p class="lead">Built with the latest, HTML5.</p>
+	
+				</div>
+
+				<div class="col-md-3 os-animation" data-animation="fadeInUp">
+					<h3>Bootstrap</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="fab fa-bootstrap"></i>
+						</span>
+					</div>
+
+					<p class="lead">Built with the Bootstrap 4 framework.</p>
+				</div>
+
+				<div class="col-md-3 os-animation" data-animation="fadeInLeft">
+					<h3>CSS 3</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="fab fa-css3"></i>
+						</span>
+					</div>
+
+					<p class="lead">Styled with the latest, CSS 3.</p>
+				</div>
+
+				<div class="col-md-3 os-animation" data-animation="fadeInLeft">
+					<h3>JavaScript</h3>
+					<div class="feature py-2">
+						<span class="fa-layers fa-3x">
+							<i class="fas fa-laptop-code"></i>
+						</span>
+					</div>
+
+					<p class="lead">Animated using JavaScript.</p>
+				</div>
+	
+			</div> <!--End Of Row Dark-->
+
+			<div class="fixed-wrap">
+				<div class="fixed-dark">
+
+				</div>
+			</div>
+		</div>
+		<!--End Fixed BG Image Dark-->
+
+
+
+	</div>
+
+	<!-- End of Features Section -->
+
+	<!-- Start Portfolio Section -->
+	
+	<!-- End of Portfolio Section -->
+
+
+	<!-- Start Pricing Section -->
+
+	<div id="pricing" class="offset">
+
+		<div class="jumbotron mb-0">
+			<div class="container pricing py-2">
+
+				<div class="os-animation" data-animation="fadeInUp">
+					<h3 class="heading">Pricing</h3>
+					<div class="heading-underline">
+					</div>
+				</div>
+
+				<div class="row justify-content-center text-center px-lg-4 px-xl-5 price-flex">
+
+					<div class="col-md-6 col-lg-4 os-animation" data-animation="fadeInLeft">
+						<div class="pricing-column">
+							<h3 class="border-bottom py-2 mx-3 text-funktech font-weight-bold">Web Development</h3>
+							<p class="lead py-2">Basic web development service using HTML3, CSS3, JavaScript & PhP.</p>
+							<li class="list-ungroup font-weight-bold py-2">Static, fast & reliable websites</li>
+							<li class="list-ungroup font-weight-bold py-2">Email templates</li>
+							<li class="list-ungroup font-weight-bold py-2">PDF --> HTML conversion</li>
+							<h1>€20/hour</h1>
+							<a href="#contact" class="btn btn-sm btn-secondary">Get In Touch</a>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-4 os-animation" data-animation="fadeInLeft">
+						<div class="pricing-column">
+							<h3 class="border-bottom py-2 mx-3 text-funktech font-weight-bold">WordPress Development</h3>
+							<p class="lead py-2">Web development service using WordPress.</p>
+							<li class="list-ungroup font-weight-bold py-2">Commercial theme implementation</li>
+							<li class="list-ungroup font-weight-bold py-2">Custom theme development</li>
+							<li class="list-ungroup font-weight-bold py-2">Maintenance</li>
+							<li class="list-ungroup font-weight-bold py-2">Optimization</li>
+							<h1>€25/hour</h1>
+							<a href="#contact" class="btn btn-sm btn-secondary">Get In Touch</a>
+						</div>
+					</div>
+
+					<div class="col-md-6 col-lg-4 os-animation" data-animation="fadeInLeft">
+						<div class="pricing-column">
+							<div class="ribbon">COMING SOON</div>
+							<h3 class="border-bottom py-2 mx-3 text-funktech font-weight-bold">Web-Based Apps</h3>
+							<p class="lead py-2">Applications tailored to fit marketing and business goals.</p>
+							<li class="list-ungroup font-weight-bold py-2">Built with React</li>
+							<li class="list-ungroup font-weight-bold py-2">Integrated with a CMS</li>
+							<li class="list-ungroup font-weight-bold py-2">Flexible to modify</li>
+							<h1>€30/hour</h1>
+							<a href="#pricing" class="btn btn-sm btn-secondary btn-funktech-unavailable">Unavailable</a>
+						</div>
+					</div>
+
+				</div><!-- End Of Row -->
+
+			</div>
+		</div>
+	</div>
+
+	<!-- End of Pricing Section -->
+
+
+	<!-- Start Team Section -->
+
+	<div id="team" class="offset team">
+
+		<!--Start BG Image Light-->
+
+		<div class="fixed">
+
+			<div class="row light">
+
+				<div class="col-12 mt-5 os-animation" data-animation="fadeInUp">
+					<h3 class="heading heading-team">Meet the team</h3>
+					<div class="heading-underline"></div>
+				</div>
+
+				<div class="container">
+
+					<div class="os-animation" data-animation="fadeInUp">
+						<div id="team-carousel" class="owl-carousel owl-theme">
+
+							<div class="card">
+								<div class="ribbon-team">WE'RE RECRUITING</div>
+								<img src="img/team/female.png" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Your Name</h4>
+									<h5 class="text-funktech">Project Manager</h5>
+									<p class="border-top border-bottom py-3 my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, vel adipisci? Voluptas, enim natus! Porro dignissimos ab minus aliquid soluta nihil suscipit impedit ad repellat laboriosam, sunt iste error odit.</p>
+									<ul class="social">
+										<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+										<li><a href=""><i class="fab fa-github"></i></a></li>
+										<li><a href=""><i class="fab fa-instagram"></i></a></li>
+										<li><a href=""><i class="fab fa-500px"></i></a></li>
+										<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+										<li><a href=""><i class="fas fa-home"></i></a></li>
+									</ul>
+								</div>
+							</div><!--End Of The Card-->
+
+							<div class="card">
+								<div class="ribbon-team">WE'RE RECRUITING</div>
+								<img src="img/team/male.png" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Your Name</h4>
+									<h5 class="text-funktech">Front-End Developer</h5>
+									<p class="border-top border-bottom py-3 my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, vel adipisci? Voluptas, enim natus! Porro dignissimos ab minus aliquid soluta nihil suscipit impedit ad repellat laboriosam, sunt iste error odit.</p>
+									<ul class="social">
+										<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+										<li><a href=""><i class="fab fa-github"></i></a></li>
+										<li><a href=""><i class="fab fa-instagram"></i></a></li>
+										<li><a href=""><i class="fab fa-500px"></i></a></li>
+										<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+										<li><a href=""><i class="fas fa-home"></i></a></li>
+									</ul>
+								</div>
+							</div><!--End Of The Card-->
+
+							<div class="card">
+								<div class="ribbon-team">WE'RE RECRUITING</div>
+								<img src="img/team/designer.png" alt="" class="card-img-top rounded-0">
+								<div class="card-body">
+									<h4 class="font-weight-bold">Your Name</h4>
+									<h5 class="text-funktech">Graphics Designer</h5>
+									<p class="border-top border-bottom py-3 my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, vel adipisci? Voluptas, enim natus! Porro dignissimos ab minus aliquid soluta nihil suscipit impedit ad repellat laboriosam, sunt iste error odit.</p>
+									<ul class="social">
+										<li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+										<li><a href=""><i class="fab fa-github"></i></a></li>
+										<li><a href=""><i class="fab fa-instagram"></i></a></li>
+										<li><a href=""><i class="fab fa-500px"></i></a></li>
+										<li><a href=""><i class="fab fa-linkedin"></i></a></li>
+										<li><a href=""><i class="fas fa-home"></i></a></li>
+									</ul>
+								</div>
+							</div><!--End Of The Card-->
+
+							<div class="card">
+								<!--<div class="ribbon-team">WE'RE RECRUITING</div>-->
+								<!--- Video Background -->
+								<video id="teamvid" style="width: 100%; height: 20rem; position: unset!important; min-width: 20rem; min-height: 20rem;
+								top: auto; left: auto; z-index: auto; transform: unset; background: unset; background-size:auto; transition: unset;
+								display: block; " playsinline autoplay muted loop>
+									<source src="/img/team/teamhk.mp4" type="video/mp4">
+									<source src="/img/team/teamhk.webm" type="video/webm">
+								</video>
+								<!--- End Video Background -->
+								<div class="card-body">
+									<h4 class="font-weight-bold">Henrik Krieger</h4>
+									<h5 class="text-funktech">Front-End Developer & Digital Creative</h5>
+									<p class="border-top border-bottom py-3 my-3">I’m an aspiring web developer who also has an interest in digital arts in general. I love to experiment with different mediums and explore what is possible to achieve as a creative just by using computers and technology. Whether it's front-end web development, electronic music or photography the quality and results all depend on your technical know-how and the possibilities for development are endless and so have I embraced continuous learning as a lifestyle.</p>
+									<ul class="social">
+										<li><a href="https://www.facebook.com/henrik.krieger.5"><i class="fab fa-facebook-square"></i></a></li>
+										<li><a href="https://github.com/Henrikk85"><i class="fab fa-github"></i></a></li>
+										<li><a href="https://www.instagram.com/kriegerhenrik/"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="https://500px.com/henrikkrieger"><i class="fab fa-500px"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/henrik-kriiger/"><i class="fab fa-linkedin"></i></a></li>
+										<li><a href="http://henrikkrieger.ee/"><i class="fas fa-home"></i></a></li>
+									</ul>
+								</div>
+							</div><!--End Of The Card-->
+							
+						</div><!--End Team Carousel-->
+					</div> <!--End Of Animation-->
+
+				</div><!--End of Container-->
+
+			</div><!--End Row-->
+
+			<div class="fixed-wrap">
+				<div class="fixed-light"></div>
+			</div>
+
+		</div>
+		<!--End BG Image Light-->
+
+	</div>
+
+	<!-- End Team Section -->
+
+
+	<!-- Start Skills Section -->
+
+	<div id="projects" class="offset">
+
+		<div class="jumbotron m-0 py-5">
+
+			<div class="container">
+
+				<div class="col-md-12 os-animation" data-animation="fadeInUp">
+				<h3 class="heading">Completed Projects</h3>
+				<div class="heading-underline"></div>
+				</div>
+
+				<div class="row justify-content-center text-center os-animation" data-animation="fadeInUp">
+					<div class="col-md-9 col-lg-12 col-xl-11">
+						<div class="row">
+
+							<div class="col-md-6 col-lg-3">
+								<span class="span fa-stack fa-3x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fas fa-clock fa-stack-1x fa-inverse"></i>
+								</span>
+								<h1 class="text-funktech font-weight-bold py-1"><span class="counter">36233</span></h1>
+								<h4 class="text-uppercase font-weight-bold">Worked Minutes</h4>
+							</div>
+
+							<div class="col-md-6 col-lg-3">
+								<span class="span fa-stack fa-3x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fas fa-file-code fa-stack-1x fa-inverse"></i>
+								</span>
+								<h1 class="text-funktech font-weight-bold py-1"><span class="counter">8659</span></h1>
+								<h4 class="text-uppercase font-weight-bold">Lines Of Code</h4>
+							</div>
+
+							<div class="col-md-6 col-lg-3">
+								<span class="span fa-stack fa-3x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fas fa-project-diagram fa-stack-1x fa-inverse"></i>
+								</span>
+								<h1 class="text-funktech font-weight-bold py-1"><span class="counter">6</span></h1>
+								<h4 class="text-uppercase font-weight-bold">Projects Completed</h4>
+							</div>
+
+							<div class="col-md-6 col-lg-3">
+								<span class="span fa-stack fa-3x">
+									<i class="fas fa-circle fa-stack-2x"></i>
+									<i class="fas fa-laugh fa-stack-1x fa-inverse"></i>
+								</span>
+								<h1 class="text-funktech font-weight-bold py-1"><span class="counter">3</span></h1>
+								<h4 class="text-uppercase font-weight-bold">Enlightened Customers</h4>
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 text-center os-animation" data-animation="fadeInUp">
+					<p class="lead">Want to learn about how we invidually approach or clients, their needs and the projects?</p>
+					<a href="#contact" class="btn btn-sm btn-secondary btn-funktech">Get In Touch</a>
+				</div>
+
+				
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- End of Skills Section -->
+
+
+	<!-- Start Clients Section -->
+
+	<div id="clients" class="offset">
+
+		<div class="row py-5">
+
+			<div class="col-12 os-animation" data-animation="fadeInUp">
+				<h3 class="heading">Clients</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="col-12 px-xl-5 os-animation" data-animation="fadeInUp">
+				<div class="owl-carousel owl-theme" id="clients-carousel">
+
+					<div class="row clients px-3 px-md-4">
+						<div class="col-lg-4 mx-auto"><img src="img/clients/businessclient.png" alt="">
+						</div>
+						<div class="col-lg-8">
+							<blockquote class="text-justify">
+								<i class="fas fa-angle-double-left"></i>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum sapiente id voluptatibus mollitia, quasi excepturi minus eligendi quam consequuntur culpa voluptates beatae ut? Fuga, assumenda molestiae? Iste similique illo ad!</p>
+								<hr class="clients-hr">
+								<cite>&#8212; Eric, Fictional Big corporate CEO</cite>
+							</blockquote>
+						</div>
+					</div>
+
+					<div class="row clients px-3 px-md-4">
+						<div class="col-lg-4 mx-auto"><img src="img/clients/businessclient.png" alt="">
+						</div>
+						<div class="col-lg-8">
+							<blockquote class="text-justify">
+								<i class="fas fa-angle-double-left"></i>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum sapiente id voluptatibus mollitia, quasi excepturi minus eligendi quam consequuntur culpa voluptates beatae ut? Fuga, assumenda molestiae? Iste similique illo ad!</p>
+								<hr class="clients-hr">
+								<cite>&#8212; Eric, Fictional Big corporate CEO</cite>
+							</blockquote>
+						</div>
+					</div>
+
+					<div class="row clients px-3 px-md-4">
+						<div class="col-lg-4 mx-auto"><img src="img/clients/businessclient.png" alt="">
+						</div>
+						<div class="col-lg-8">
+							<blockquote class="text-justify">
+								<i class="fas fa-angle-double-left"></i>
+								<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum sapiente id voluptatibus mollitia, quasi excepturi minus eligendi quam consequuntur culpa voluptates beatae ut? Fuga, assumenda molestiae? Iste similique illo ad!</p>
+								<hr class="clients-hr">
+								<cite>&#8212; Eric, Fictional Big corporate CEO</cite>
+							</blockquote>
+						</div>
+					</div>
+
+				</div><!--End Of Carousel-->
+			</div>			
+
+		</div><!--End of Row-->
+
+	</div><!--End Fiv-->
+
+	<!-- End of Clients Section -->
+
+
+	<!-- Start Contact Section -->
+
+	<div id="contact" class="offset">
+
+		<div class="container-fluid footer px-0">
+			<div class="row outer">
+
+				<div class="container">
+					<div class="row py-3">
+
+						<div class="col-md-5 px-0 pr-md-3 text-center px-3">
+							<img src="img/android-icon-144x144.png" alt="" class="navbar-brand">
+							<p>We are an emerging web development agency from Estonia established in 2017. Our founder has a degree in economics and also has studied web design & digital graphics but specializing in web technologies. At the moment we’re also looking for potential employees to expand our business which has been mostly a hobby until 2020.</p>
+							<strong>Estonia</strong>
+							<p>(City) Tallinn<br>(County) Harjumaa, EE0016</p>
+							<strong>Contact Info</strong>
+							<p>(+372)5282395<br>henrik@henrikkrieger.ee</p>
+							<ul class="social pt-2">
+								<li><a href="https://www.facebook.com/henrik.krieger.5"><i class="fab fa-facebook-square"></i></a></li>
+								<li><a href="https://github.com/Henrikk85"><i class="fab fa-github"></i></a></li>
+								<li><a href="https://www.instagram.com/kriegerhenrik/"><i class="fab fa-instagram"></i></a></li>
+								<li><a href="https://500px.com/henrikkrieger"><i class="fab fa-500px"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/henrik-kriiger/"><i class="fab fa-linkedin"></i></a></li>
+							</ul>
+						</div><!--End Column-->
+
+						<div class="col-md-7 px-0 pl-md-3 text-center px-4">
+							<h3>Contact Us</h3>
+
+							<form action="contact/contact.php" method="POST" id="contact-form">
+
+								<div class="messages"></div>
+								<div class="controls">
+
+									<div class="form-group">
+										<input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Enter your name.">
+									</div>
+
+									<div class="form-group">
+										<input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Enter your email.">
+									</div>
+
+									<div class="form-group">
+										<textarea name="message" id="form_message" rows="4" class="form-control" required="required" placeholder="Add your message."></textarea>
+									</div>
+
+									<input type="submit" class="btn btn-outline-light btn-sm" value="Send Message">
+
+								</div> <!-- End Controls -->
+							
+							</form> <!-- End Form -->
+
+						</div> <!-- End Column -->
+
+						<hr class="socket">
+						&copy; Funktech2020.
+
+					</div><!--End Row-->
+				</div><!--End Container-->
+
+			</div><!--End Row Outer-->
+		</div><!--End Container Fluid-->
+
+	</div>
+
+	<!-- End Contact Section -->
+
+	<!-- Dark/Light Mode Switch -->
+
+	<div class="d-flex flex-row"></div>
+		<p class="custom-control-switch switch-text-top">Save</p>
+		<p class="custom-control-switch switch-text-bottom">Power</p>
+	</div>
+
+	<div class="custom-control-switch custom-switch">
+		<input type="checkbox" class="custom-control-input" id="darkSwitch"></input>
+		<label class="custom-control-label" for="darkSwitch"></label>
+	</div>
+
+
+	<!-- Top Scroll -->
+
+	<a href="#home" class="top-scroll">
+		<i class="fa fa-angle-up"></i>
+	</a>
+
+	<!-- End of Top Scroll -->
+
+	<!-- Script Source Files -->
+
+	<!-- Dark/Light Switch JS -->
+	<script src="js/dark-mode-switch.min.js"></script>
+	<!-- Dark/Light Switch JS -->
+	<!-- <script src="js/dark-mode-switch.js"></script> -->
+	<!-- Plugins.js -->
+	<script src="js/plugins.js"></script>
+	<!-- Waypoints https://cdnjs.com/libraries/waypoints
+		https://github.com/imakewebthings/waypoints -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+	<!-- Font Awesome https://fontawesome.com/  https://use.fontawesome.com/releases/v5.11.2/js/all.js -->
+	<script src="https://kit.fontawesome.com/79a4e35340.js" crossorigin="anonymous"></script>
+	<!-- Lightbox Image Gallery https://cdnjs.com/libraries/lightbox2  https://lokeshdhakar.com/projects/lightbox2/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+
+	<!-- Owl Carousel https://cdnjs.com/libraries/OwlCarousel2
+		http://owlcarousel2.github.io/OwlCarousel2/ -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+	<!-- jQuery CounterUp https://www.jsdelivr.com/package/npm/jquery.counterup
+		https://github.com/bfintal/Counter-Up2 -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery.counterup@2.1.0/jquery.counterup.min.js"></script>
+
+	<!-- Bootstrap Form Validator https://cdnjs.com/libraries/1000hz-bootstrap-validator -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+
+
+	<!-- End of Script Source Files -->
+
+</body>
+</html>

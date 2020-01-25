@@ -1,0 +1,750 @@
+/*============= RESETS ============= font-family: 'Lato', sans-serif; */
+
+/*-- iPhone X Remove Gutters --*/
+
+html {
+   padding: env(safe-area-inset);
+}
+
+/*-- Prevent Horizontal Scrolling & Font Style --*/
+
+html, body {
+   overflow-x: hidden;
+   font-family: 'Cascadia Code';
+   /*-- font-family: 'Roboto', sans-serif; --*/
+   /*-- font-family: 'Lato', sans-serif; --*/
+   color: #505962;
+}
+.text-nuno {
+   color: #1EBBA3;
+}
+
+.text-funktech {
+   color: #1EBBA3;
+}
+
+/*--- Nav Scrolling Offset --*/
+
+.offset:before {
+   content: "";
+   height: 4rem;
+   display: block;
+   margin-top: -4rem;
+}
+
+/*--- Extra Bootstrap Column Padding --*/
+
+[class*="col-"] {
+   padding: 1rem;
+}
+
+
+/*============= NAVIGATION =============*/
+
+.nav-item{
+   text-align: right;
+}
+
+.navbar-brand img {
+   height: 1.7rem;
+   transition: background-color 3s ease 3s;
+}
+
+.navbar {
+   padding: .7rem 1rem;
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: .1rem;
+   font-size: .9rem;
+   transition: background-color .5s ease;
+}
+
+.navbar-nav li {
+   padding-right: .8rem;
+}
+
+.navbar-nav .nav-link {
+   color: white;
+   padding-top: .8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+   color: #1EBBA3; 
+}
+
+.custom-toggler-icon {
+   color:white;
+   font-size: 1.6rem;
+}
+
+.navbar.solid,
+.navbar.solid-toggle {
+   background: rgba(0, 0, 0, .7)!important;
+   transition: background-color 1s ease 0s;
+}
+
+.navbar-brand {
+   transition: background-color .5s ease;
+}
+
+/*-- Remove Button Outline --*/
+
+button:focus, a:focus a.btn:focus {
+   outline: 0;
+   -webkitap-appearance: none;
+   box-shadow:none;
+}
+
+button, a, a.btn,
+.svg-inline--fa {
+   transition: all .6s ease;
+} 
+
+
+/*============= LANDING PAGE =============*/
+
+/*--- Fixed Landing Page Section --*/
+
+.landing {
+position: relative;
+width: 100%;
+height: 100vh;
+display: table;
+z-index: -1;
+}
+
+.home-wrap {
+   clip: rect(0, auto, auto, 0);
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+}
+
+.home-inner {
+   background-image: url('');
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position:center center;
+   -webkit-transform: translate(0);
+   transform: translateZ(0);
+   will-change: transform;
+   display: table;
+}
+
+/*-- Landing Page Caption --*/
+
+.caption {
+   z-index: 1;
+   position: absolute;
+   top: 38%;
+   width: 100%;
+   max-width: 100%;
+}
+
+.caption h1 {
+   font-size: 4.5rem;
+   letter-spacing: .3rem;
+   text-shadow: .1rem .1rem .8rem black;
+   padding-bottom: 1rem;
+}
+
+.caption h3 {
+   font-size: 2.5rem;
+   text-shadow: .1rem .1rem .5rem black;
+   padding-bottom: 2rem;
+}
+
+.caption, .btn-lg {
+   border-width:medium;
+   padding: .8rem 1.5rem;
+   font-size: 1.1rem;
+}
+
+/*-- Bouncing Down Arrow --*/
+
+.arrow {
+   position: absolute;
+   bottom: .15rem;
+   width: 100%;
+   animation: bounce 2s infinite;
+   -webkit-animation: bounce 2s infinite;
+   color: gray;
+   font-size: 2.2rem;
+   opacity: .9;
+   z-index: 1;
+}
+
+.arrow:hover {
+   color: white;
+}
+
+/*============= FEATURES SECTION =============*/
+
+.btn-sm {
+   border-width: medium;
+   border-radius: 0;
+   padding: .5rem 1.1rem;
+   text-transform: uppercase;
+   font-size: .9rem;
+   margin: 1rem;
+}
+
+.btn-nuno {
+   background-color: #1EBBA3;
+   color:white;
+   border-color: black;
+}
+
+
+.btn-nuno:hover {
+   background-color: #189582;
+   color:white;
+}
+
+.btn-funktech {
+   background-color: #1EBBA3;
+   color:white;
+   border-color: black;
+}
+
+
+.btn-funktech:hover {
+   background-color: #189582;
+   color:white;
+}
+
+.btn-funktech-unavailable:hover {
+   background-color: red;
+   opacity: .7;
+   color:white;
+}
+
+h3.heading {
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: 1.9rem;
+   text-align: center;
+   margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+   width: 3rem;
+   height: .25rem;
+   background-color: #1EBBA3;
+   margin: 0 auto 2rem;
+}
+
+.feature span {
+   color: #1EBBA3;
+   margin-bottom: .6rem;
+}
+
+.feature h3 {
+   text-transform: uppercase;
+   font-size: 1.3rem;
+   padding-bottom: .4rem;
+}
+
+/*===== FIXED BACKGROUND IMG DARK =====*/
+
+/*--- iOS Fixed Background Image --*/
+
+.fixed {
+   position: relative;
+   width: 100%;
+}
+   
+.fixed-wrap {
+   clip: rect(0, auto, auto, 0);
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: -9999;
+}
+   
+.fixed-dark {
+   background-image: url('../img/backgrounds/background2.jpg');
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position:center center;
+   -webkit-transform: translate(0);
+   transform: translateZ(0);
+   will-change: transform;
+   display: table;
+   z-index:-1;
+   top:0;
+   left:0;
+}
+
+.dark {
+   background-color: rgba(0, 0, 0, .7);
+   padding: .7rem 0;
+   z-index: 1000;
+}
+
+/*============= PORTFOLIO SECTION =============*/
+
+.portfolio-item img:hover {
+   transform: scale(1.3);
+   transition: transform .5s ease;
+   cursor: zoom-in;
+}
+
+/*============= PRICING SECTION =============*/
+
+.pricing-column {
+   background-color: white;
+   height: 100%;
+   padding: 1.2rem;
+   border-top: .25rem solid #1EBBA3;
+   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+   transition: transform ease .7s;
+   position: relative;
+   overflow: hidden;
+}
+
+.pricing-column:hover {
+   transform: scale(1.1);
+}
+
+.ribbon {
+   background-color: #6c757d;
+   color:white;
+   font-size: .8rem;
+   font-weight: 725;
+   height: 2rem;
+   width: 10rem;
+   padding-top: .4rem;
+   position: absolute;
+   transform: rotate(45deg);
+   right:-2.7rem;
+   top:1.2rem;
+   box-shadow: 0 0 .2rem rgba(0, 0, 0, .02);
+}
+
+/*============= Team Section CSS =============*/
+
+.heading-team {
+   color:#1EBBA3
+}
+
+/*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
+
+/*--- Team Light Background Image --*/
+
+.fixed-light {
+   background-image: url('../img/backgrounds/background1.jpg');
+   position: fixed;
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position:center center;
+   -webkit-transform: translate(0);
+   transform: translateZ(0);
+   will-change: transform;
+   display: table;
+   z-index:-1;
+   top:0;
+   left:0;
+}
+
+.light {
+   background-color: rgba(0, 0, 0, .75);
+   z-index: 1000;
+   padding: 4rem 0;
+   overflow: hidden;
+}
+
+.owl-stage {
+   display: flex;
+}
+
+.card {
+   height: 100%;
+   border-radius: 0;
+   text-align: center;
+   margin: 0 1rem;
+   border: .1rem solid rgba(0, 0, 0, .075);
+   box-shadow: 0 0 .8rem rgba(0, 0, 0, .075);
+   transition: transform .6s ease;
+   position: relative;
+   overflow: hidden;
+}
+
+.card:hover {
+   transform: scale(.95);
+}
+
+button.owl-dot.active span,
+button.owl-dot.hover span
+ {
+   background: #1EBBA3!important;
+}
+
+ul.social {
+   list-style: none;
+   padding: 0;
+   margin:0;
+   font-size: 1.5rem;
+}
+
+ul.social li {
+   display: inline;
+   padding-right: .8rem;
+}
+
+ul.social li a {
+   color:#1EBBA3;
+   transition: all .25s ease;
+}
+
+ul.social li a:hover {
+   color:#505962;
+}
+
+.ribbon-team {
+   background-color: #6c757d;
+   color:white;
+   font-size: .8rem;
+   font-weight: 725;
+   height: 2rem;
+   width: 16rem;
+   padding-top: .4rem;
+   position: absolute;
+   transform: rotate(45deg);
+   right:-4.8rem;
+   top:2.3rem;
+   box-shadow: 0 0 .2rem rgba(0, 0, 0, .02);
+}
+
+/*============= PROJECTS SECTION =============*/
+
+
+/*============= CLIENTS SECTION =============*/
+
+#clients-carousel {
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.clients img {
+   border-radius: 50%;
+   transition: transform .3s ease;
+}
+
+.clients img:hover {
+   transform: scale(.9);
+}
+
+blockquote .fas {
+   margin: 1rem;
+   color: #1EBBA3;
+}
+
+.clients-hr {
+   border-top: .1rem solid #1EBBA3;
+}
+
+/*============= CONTACT SECTION =============*/
+
+.footer {
+   /*background: url('/img/footer/footer.jpg') no-repeat;*/
+   background-size: cover;
+   background-color: #505962;
+   color: white;
+   padding-top: 12vh;
+   padding-bottom: 6vh;
+   -webkit-clip-path: ellipse(120vmax 100% at 50% 100%);
+   clip-path: ellipse(120vmax 100% at 50% 100%);
+}
+
+.footer a,
+.footer ul.social li a {
+   color: white;
+}
+
+.footer ul.social li a:hover {
+   color: #1EBBA3;
+}
+
+.footer h3 {
+   text-transform: uppercase;
+   margin: 4rem 0;
+}
+
+#contact-form {
+   margin-top: 4rem;
+}
+
+.form-control {
+   background-color: #53595f;
+   border-radius: 0;
+   border: .15rem solid #666b71;
+   color:white !important;
+   font-size: 1.15rem;
+}
+
+.form-control:focus {
+   background-color: #53595f;
+   border: .15rem solid #666b71;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+   color:#b2b5b8!important;
+}
+
+hr.socket {
+   border-top: .25rem solid #666b71;
+   width: 100%;
+}
+
+/*--- Contact Form --*/
+
+
+/*============= TOP SCROLL =============*/
+
+.fa-angle-up {
+   color:gray;
+   font-size: 3rem;
+   height: 1.7rem;
+   z-index: 1000;
+}
+
+a.top-scroll {
+   right: 1.2rem;
+   bottom: 1.2rem;
+   position: fixed;
+   z-index: 1000;
+   display: none;
+}
+
+.fa-angle-up:hover {
+   color:lightgray;
+}
+
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 992px (lg) */
+
+@media (max-width: 991.98px) {
+
+   .caption h1 {
+      font-size: 3.5rem;
+      letter-spacing: .2rem;
+      padding-bottom: .8rem;
+   }
+   
+   .caption h3 {
+      font-size: 2.2rem;
+      padding-bottom: 1.7rem;
+   }
+   
+   .caption, .btn-lg {
+      padding: .7rem 1.2rem;
+      font-size: 1rem;
+   }
+
+   .clients img {
+      max-width: 50%;
+      margin: 0 auto;
+   }
+
+}
+   
+
+/* Devices under 768px (md) */
+
+@media (max-width: 767.98px) {
+   
+   .caption h1 {
+      font-size: 2.7rem;
+      letter-spacing: .15rem;
+      padding-bottom: .5rem;
+   }
+   
+   .caption h3 {
+      font-size: 1.7em;
+      padding-bottom: 1.2rem;
+   }
+   
+   .caption, .btn-lg {
+      padding: .6rem 1.1rem;
+   }
+
+   #features h1 {
+      font-size: 2rem;
+   }
+
+   .top-scroll {
+      display: none!important;
+   }
+
+}
+
+/* Devices under 576px (sm) */
+
+@media (max-width: 575.98px) {
+
+   .caption h1 {
+      font-size: 1.9rem;
+      letter-spacing: .1rem;
+      padding-bottom: .4rem;
+   }
+   
+   .caption h3 {
+      font-size: 1.2em;
+      padding-bottom: 1rem;
+   }
+   
+   .caption, .btn-lg {
+      padding: .4rem 0.9rem;
+      font-size: .9rem;
+   }
+
+}
+
+
+/*============= VIDEO LANDING PAGE =============*/
+
+/*--- Fixed Video Background--*/
+
+/*--- Fixed Video Background--*/
+
+.video-background {
+   position: relative;
+   width: 100%;
+   min-height: 100vh;
+   /*background-color: rgba(0,0,0, 0.7); /* Black Opacity On Video */
+ }
+
+ .video-wrap {
+   clip: rect(0, auto, auto, 0);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ }
+
+ #video {
+   position: fixed;
+   display: block;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-position: center center;
+   -webkit-transform: translateZ(0);
+           transform: translateZ(0);
+   will-change: transform;
+   z-index: auto;
+ }
+
+ video { 
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   min-width: 100%;
+   min-height: 100%;
+   width: auto;
+   z-index: -100;
+   transform: translateX(-50%) translateY(-50%);
+   /*background: url('') no-repeat;
+   background-size: cover;
+   transition: 1s opacity;*/
+ }
+
+ /*--- Video Controls Native CSS--*/
+
+::-webkit-media-controls {
+   bottom: 8rem;
+}
+
+ /*--- Menu Hover Animation --*/
+
+ul {
+   align-items: center;
+   list-style-type: none;
+}
+
+ul li a {
+   position: relative;
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: 0.5s;
+}
+
+ul li a::after {
+   position: absolute;
+   content: "";
+   top: 100%;
+   left: 0;
+   width: 100%;
+   height: 3px;
+   background: white;
+   transform: scaleX(0);
+   transform-origin: center;
+   transition: transform 0.5s;
+}
+
+ul li a:hover {
+   color: white;
+}
+
+ul li a:hover::after {
+   transform: scaleX(1);
+   transform-origin: center;
+}
+
+/*--- Dark/Light Mode Switch --*/
+
+.custom-control-switch {
+   right: 1rem;
+   bottom: 10%;
+   position: fixed;
+   z-index: 1000;
+   display: none;
+}
+
+.switch-text-top {
+   padding-bottom: 2rem;
+   padding-right:.4rem;
+}
+
+.switch-text-bottom {
+   padding-bottom: 1rem;
+}
+
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
