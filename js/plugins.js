@@ -22,8 +22,6 @@ $('.navbar-toggler').click(function () { //when navbar-toggler is clicked
 });
 
 
-
-
 /*========== CLOSE MOBILE MENU ON CLICK & SMOOTH SCROLL TO LINK ==========*/
 
 $(document).on('click', 'a[href^="#"]', function (event) {
@@ -41,7 +39,6 @@ $(document).on('click', 'a[href^="#"]', function (event) {
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 1000);
 })
-
 
 
 /*========== BOUNCING DOWN ARROW ==========*/
@@ -65,7 +62,6 @@ $(document).ready(function () {
         'imageFadeDuration': 400.,
     });
 });
-
 
 /*========== MEET THE TEAM CAROUSEL ==========*/
 
@@ -145,7 +141,16 @@ $(document).ready(function () {
 /*========== USE DIFFERENT VIDEO ON MOBILE DEVICES ==========*/
 $(document).ready(function () {
     if ($(window).width() < 768) {
-        $('#bgvid').attr('src', '/media/landingmobilewebm.webm');
+        $('#bgvid').attr('src', '/media/landingmobilewebm.webm'),
+        $('#bgvid').attr('type', 'video/webm');
+    }
+});
+
+/*========== USE DIFFERENT TEAM IMAGE VIDEO ON MOBILE DEVICES ==========*/
+$(document).ready(function () {
+    if ($(window).width() < 768) {
+        $('.teamvideo').attr('src', '/img/team/teamhkweb.webm'),
+        $('.teamvideo').attr('type', 'video/webm');
     }
 });
 
