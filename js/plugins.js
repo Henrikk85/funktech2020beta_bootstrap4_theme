@@ -142,6 +142,14 @@ $(document).ready(function () {
 });
 
 
+/*========== USE DIFFERENT VIDEO ON MOBILE DEVICES ==========*/
+$(document).ready(function () {
+    if ($(window).width() < 768) {
+        $('#bgvid').attr('src', '/media/landingmobilewebm.webm');
+    }
+});
+
+
 /*========== WAYPOINTS ANIMATION DELAY ==========*/
 //Original Resource: https://www.oxygenna.com/tutorials/scroll-animations-using-waypoints-js-animate-css
 $(function () { // a self calling function
