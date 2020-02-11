@@ -727,6 +727,15 @@ ul li a:hover::after {
    padding-bottom: 1rem;
 }
 
+/*--- Credits CSS --*/
+
+.credits {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem
+}
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
